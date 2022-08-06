@@ -17,7 +17,7 @@ import {
 import { FiMail } from 'react-icons/fi';
 import { MdLocationOn } from 'react-icons/md';
 import Image from '../Components/Profile.jpeg';
-import image from '../Components/image.jpeg';
+//import image from '../Components/image.jpeg';
 
 export default function Resume() {
   return (
