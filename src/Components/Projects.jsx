@@ -49,12 +49,13 @@ const projects = [
     gitlink: 'https://github.com/upendharsakinala/Dog-Galery-Website.git',
   },
   {
-    title: '',
-    description: '',
-    time: '',
-    techstacks: '',
-    hostlink: '',
-    gitlink: '',
+    title: 'Product Page',
+    description:
+      'This is a statc product page like we seen in amazon and Flipkart',
+    time: 'April 2022',
+    techstacks: 'Html,Css',
+    hostlink: 'https://incomparable-klepon-ca6ef8.netlify.app/',
+    gitlink: 'https://github.com/upendharsakinala/perspect',
   },
 ];
 
