@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { FaCode, FaLink } from 'react-icons/fa';
 import './Resume.css';
 
@@ -53,22 +53,22 @@ const projects = [
     description:
       'This is a statc product page like we seen in amazon and Flipkart',
     time: 'April 2022',
-    techstacks: 'Html,Css',
+    techstacks: 'HTMl,CSS',
     hostlink: 'https://incomparable-klepon-ca6ef8.netlify.app/',
     gitlink: 'https://github.com/upendharsakinala/perspect',
   },
 ];
 
 export default function Projects() {
-  const [messege, setMessage] = useState('');
+  //const [messege, setMessage] = useState('');
 
-  function handleMouseOver() {
-    setMessage('Go to code');
-  }
+  // function handleMouseOver() {
+  //   setMessage('Go to code');
+  // }
 
-  function handleMouseOut() {
-    setMessage('');
-  }
+  // function handleMouseOut() {
+  //   setMessage('');
+  // }
 
   return (
     <div>
@@ -76,13 +76,18 @@ export default function Projects() {
       <div>
         <span className='projectTitle'>
           Full Stack Development Development Program in Newton School
-        </span>{' '}
-        <time>Oct 2022-Present</time>
-        <p>In this training i have worked on</p>
+          <time>Oct 2022-Present</time>
+        </span>
+        <p>
+          In this program I have learned front end technologies like
+          HTML,CSS,JavaScript and React from the senior software engineers who
+          are working under the same tech staks and also I have given number of
+          mock interviews to enhance my learning.
+        </p>
       </div>
       <h3 className='headings'>Projects:</h3>
       <div>
-        <div className='messeage'>Go to code..</div>
+        {/* <div className='messeage'>Go to code..</div> */}
         {projects.map((item, index) => {
           return (
             <div key={index} id='projectbox'>
@@ -93,12 +98,13 @@ export default function Projects() {
                   target='_blank'
                   rel='noreferrer'
                   className='gitlink'
-                  onMouseOver={handleMouseOver}
-                  onMouseOut={handleMouseOut}
+                  // onMouseOver={handleMouseOver}
+                  // onMouseOut={handleMouseOut}
                 >
                   <FaCode />
                 </a>
-                {messege}{' '}
+                &nbsp;&nbsp;
+                {/* {messege}{' '} */}
                 <a href={item.hostlink} target='_blank' rel='noreferrer'>
                   <FaLink />
                 </a>

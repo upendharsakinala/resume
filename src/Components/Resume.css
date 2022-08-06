@@ -164,9 +164,9 @@ td {
   float: left;
 }
 .projectTitle {
-  font-size: large;
+  font-size: medium;
   font-weight: bold;
-  padding-right: 10px;
+  align-items: left;
 }
 
 time {
@@ -189,14 +189,14 @@ time {
   margin-top: 12px;
 }
 
-.messeage {
+/* .messeage {
   display: none;
-}
+} */
 
-.gitlink:hover + .messeage {
+/* .gitlink:hover + .messeage {
   display: block;
   color: red;
-}
+} */
 
 @media screen and (max-width: 400px) {
   .right-section {
