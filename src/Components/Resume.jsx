@@ -16,16 +16,14 @@ import {
 } from 'react-icons/fa';
 import { FiMail } from 'react-icons/fi';
 import { MdLocationOn } from 'react-icons/md';
+import Image from '../Components/Profile.jpeg';
+import image from '../Components/image.jpeg';
 
 export default function Resume() {
   return (
     <div className='main-content'>
       <div className='left-section'>
-        <img
-          src='https://cookieandkate.com/images/2019/11/cookie-and-kate-logo.png'
-          alt='profile'
-          className='profileimg'
-        />
+        <img src={Image} alt='profile' className='profileimg' />
         <h1 id='name'>Upendhar Sakinala</h1>
         <hr className='line' />
         <h4 id='techstack'>
