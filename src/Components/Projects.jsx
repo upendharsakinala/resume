@@ -40,12 +40,13 @@ const projects = [
     gitlink: 'https://github.com/upendharsakinala/Form-Table.git',
   },
   {
-    title: '',
-    description: '',
-    time: '',
-    techstacks: '',
-    hostlink: '',
-    gitlink: '',
+    title: 'Dog Gallery Website',
+    description:
+      'In this project we can search the different kind of dogs and view breeds of dogs and also lot of images of project',
+    time: 'March 2022',
+    techstacks: 'React-Js',
+    hostlink: 'https://mystifying-galileo-d432a2.netlify.app/',
+    gitlink: 'https://github.com/upendharsakinala/Dog-Galery-Website.git',
   },
   {
     title: '',
